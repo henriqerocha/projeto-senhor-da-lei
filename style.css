@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fredoka;
+}
+
+.background-principal{
+    background-image: url('/img/capa.jpg');
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.container{
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto;
+}
+.background-principal h1, h3{
+    color: black;
+    width: 100%;
+    max-width: 700px;
+    margin: 10px auto;
+    text-align: right;
+}
+.info h3{
+    text-align: left;
+    padding-bottom: 30px;
+}
+.borda-p{
+    border-left: 3px solid black;
+    padding: 5px 10px;
+}
+.background-atuacao{
+    background-image: url('/img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100px;
+    padding: 50px 0;
+}
+.background-atuacao h3,
+.background-contact h3{
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100px;
+}
+.area-atuacao h3{
+    text-align: left;
+}
+.area-atuacao ul li{
+    list-style: none;
+}
+
+.background-contact{
+    background-image: url('/img/fundo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100px;
+    padding: 50px 0;
+}
+.fale-conosco h3{
+    text-align: left;
+}
+.fale-conosco li a, .fale-conosco li{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
